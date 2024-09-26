@@ -1,0 +1,55 @@
+
+.anime__watching-player .plyr {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.anime__watching-player .plyr__control--overlaid {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.01);
+}
+
+.anime__watching-player .plyr__control:hover {
+    background: unset !important;
+}
+
+.anime__watching-player .plyr__control--overlaid svg {
+    height: 60px;
+    width: 50px;
+}
+
+.anime__watching-player .plyr__controls {
+    padding: 35px 30px 5px 5px !important;
+}
+
+.anime__watching-player .plyr__controls .plyr__controls__item.plyr__progress__container {
+    position: absolute;
+    left: 26px;
+    bottom: 45px;
+    width: calc(100% - 60px);
+}
+
+.anime__watching-player .plyr__controls .plyr__controls__item:first-child {
+    position: absolute;
+    left: 32px;
+    bottom: 8px;
+}
+
+.anime__watching-player .plyr__controls .plyr__controls__item.plyr__time {
+    position: absolute;
+    left: 190px;
+    bottom: 12px;
+}
+
+.anime__watching-player .plyr__volume {
+    position: absolute;
+    width: auto;
+    left: 76px;
+    bottom: 8px;
+}
+
+/* .anime__watching-player .plyr__controls .plyr__controls__item:last-child {
+    position: absolute;
+    right: 32px;
+    bottom: 8px;
+} */

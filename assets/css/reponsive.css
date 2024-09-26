@@ -1,0 +1,215 @@
+/* PC */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) { 
+    .login__form {
+        padding-left: 32px;
+    }
+
+    .header__search-close {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        font-size: 25px;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .header {
+        padding: 0 15px;
+    }
+
+    .header__navbar-wrap {
+        margin-left: auto;
+    }
+
+    .header__navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        padding: 15px 30px;
+        background-color: var(--white-color);
+        height: max-content;
+        visibility: hidden;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: all linear 0.2s;
+        opacity: 0;
+        z-index: 13;
+    }
+
+
+    .header__navbar.active-on-mobile {
+        visibility: visible;
+        opacity: 1;
+        transform: scaleY(1);
+    }
+
+    .header__nav-list {
+        display: block;
+    }
+
+    .header__nav-item {
+        height: 48px;
+    }
+
+    .header__nav-item.active {
+        background-color: var(--white-color);
+    }
+
+    .header__nav-item:hover > a {
+        color: var(--primary-color);
+    }
+
+    .header__nav-item > a {
+        color: var(--text-color);
+        padding: 7px 0 7px;
+        font-weight: 500;
+    }
+    
+    .header__nav-item a i:first-child {
+        display: none;
+    }
+
+    .header__nav-item a i:last-child {
+        display: inline-block;
+    }
+    
+    .app__container {
+        padding: 0 15px;
+    }
+
+    .product__sidebar-cmt-img {
+        width: 90px;
+    }
+
+    .anime__details-pic {
+        margin-bottom: 40px;
+    }
+
+    .anime__watching-player {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .anime__watching-controls .controls__light,
+    .anime__watching-controls .controls__resize {
+        display: none;
+    }
+
+    .blog__details-title h2 {
+        font-size: 3.4rem;
+        line-height: 4.4rem;
+    }
+
+    .blog__details-btns a {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .login__form {
+        padding-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .login__form::after {
+        display: none;
+    }
+
+    .login__form-input {
+        width: 100%;
+    }
+
+    .login__register {
+        padding-left: 0;
+    }
+
+    .footer {
+        padding: 60px 15px 80px;
+    }
+
+    .footer__logo {
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .header__nav-subnav {
+        left: 40%;
+        top: 10px;
+        width: 50%;
+        visibility: hidden;
+    }
+
+    .header__nav-item:hover .header__nav-subnav {
+        visibility: visible;
+        opacity: 1;
+        left: 20%;
+        top: 10px;
+    }
+    
+    .blog__item {
+        margin: 0 -4px 8px -4px;
+    }
+}
+
+
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .header__nav-subnav {
+        left: 60%;
+        top: 10px;
+        width: 50%;
+        visibility: hidden;
+    }
+
+    .header__nav-item:hover .header__nav-subnav {
+        visibility: visible;
+        opacity: 1;
+        left: 38%;
+        top: 10px;
+    }
+
+    .btn__viewall {
+        float: unset;
+        font-size: 16px;
+        width: 100px;
+    }
+
+    .product__page-filter {
+        justify-content: flex-start;
+    }
+    
+    .anime__details-rating {
+        position: static;
+        display: block;
+        text-align: left;
+        margin: 20px 0;
+    }
+
+    .anime__details-rating .vote {
+        font-size: 1.8rem;
+    }
+
+    .blog__details-social a {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+    }
+}

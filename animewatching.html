@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/animedetails.css">
+    <link rel="stylesheet" href="./assets/css/animewatching.css">
+    <link rel="stylesheet" href="./assets/css/plyredit.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/owlcarousel.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.4/plyr.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+    <script src="https://cdn.plyr.io/3.6.4/plyr.js"></script>
+    <title>Anime47</title>
+</head>
+<body>
+    <div class="app">
+        <div class="grid wide header__search">
+            <div class="header__search-form-wrap">
+                <form class="header__search-form">
+                    <input type="text" placeholder="Search..." class="header__search-input">
+                    <button type="submit" class="header__search-submit">Search</button>
+                </form>
+            </div>
+            <div class="header__search-close hide-on-mobile">
+                <a href="#"></a>
+            </div>
+        </div>
+        <header class="header">
+            <div class="grid wide">
+                <div class="row header__wrap">
+                    <div class="col l-2 m-2 c-2">
+                        <div class="header__logo">
+                            <a href="./index.html"><img src="./assets/img/logo.webp" alt="Animetvn" class="header__logo-img"></a>
+                        </div>
+                    </div>
+
+                    <div class="col l-8 header__navbar-wrap">
+                        <div class="header__navbar">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item active">
+                                    <a href="./index.html">Homepage</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#">Categories
+                                        <i class="fas fa-angle-down"></i>
+                                        <i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="header__nav-subnav">
+                                        <li><a href="./categories.html">Categories</a></li>
+                                        <li><a href="./animewatching.html">Anime Watching</a></li>
+                                        <li><a href="./animedetails.html">Anime Details</a></li>
+                                        <li><a href="./blogdetails.html">Blog Details</a></li>
+                                        <li><a href="./login.html">Login</a></li>
+                                        <li><a href="./signup.html">Sign up</a></li>
+                                    </ul>
+                                </li>
+                                <li class="header__nav-item"><a href="./ourblog.html">OurBlog</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#">Contacts</a>
+                                </li>
+                                <div class="header__nav-line"></div>
+
+                                <div class="header__navbar-close hide-on-pc">
+                                    <a href="#"></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col l-2 m-9 c-9">
+                        <div class="header__masthead">
+                            <a href="#" class="header__search-icon">
+                                <i class="fas fa-search"></i>
+                            </a>
+        
+                            <div class="header__user">
+                                <a href="./login.html" class="header__user-icon"> 
+                                    <i class="fas fa-user"></i>
+                                </a> 
+                            </div>
+
+                            <div class="header__menu-nav hide-on-pc">
+                                <a class="header__menu-btn" href="#">MENU
+                                    <span><i class="fas fa-bars"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide ">
+                <div class="container">
+
+                    <div class="breadcrumb">
+                        <div class="grid wide">
+                            <div class="row sm-gutter">
+                                <div class="col l-12 c-12 m-12">
+                                    <div class="breadcrumb__link">
+                                        <a href="index.html"><i class="fas fa-home"></i>Home</a>
+                                        <a href="categories.html">Categories</a>
+                                        <a href="categories.html">Action</a>
+                                        <span>Berserk: The Golden Age Arc</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        
+                   <div class="row sm-gutter">
+                       <div class="col l-12 c-12 m-12">
+                           <div class="anime__watching">
+                               <div class="anime__watching-player">
+                                   <div class="anime__watching-video">
+                                    <video id="player" playsinline controls >
+                                        <source type="video/mp4" src="./assets/video/375.mp4">
+                                    </video>
+                                   </div>
+                                   <div class="anime__watching-controls">
+                                       <div class="controls__autoplay">
+                                            <i class="fa fa-square" style="font-weight: 400"></i>
+                                            Auto Play
+                                       </div>
+                                       <div class="controls__autonext">
+                                            <i class="fa fa-square" style="font-weight: 400"></i>
+                                            Auto Next
+                                       </div>
+                                       <div class="controls__light">
+                                            <i class="fas fa-lightbulb"></i>
+                                            Light
+                                       </div>
+                                       <div class="controls__addlist">
+                                            <i class="far fa-heart"></i>
+                                            Add to list
+                                       </div>
+                                       <div class="controls__prev">
+                                            <i class="fas fa-backward"></i>
+                                            Prev
+                                       </div>
+                                       <div class="controls__next">
+                                            <i class="fas fa-forward"></i>
+                                            Next
+                                       </div>
+                                       <div class="controls__resize">
+                                            <i class="fas fa-expand"></i>
+                                            Expand
+                                       </div>
+                                       <div class="controls__report">
+                                            <i class="fas fa-exclamation"></i>
+                                            Report
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="anime__watching-episodes">
+                                <div class="section__title">
+                                    <h3>Episodes</h3>
+                                </div>
+                                <ul class="epiodes__list">
+                                    <li class="epiodes__item"><a href="#">Ep 01</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 02</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 03</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 04</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 05</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 06</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 07</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 08</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 09</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 10</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 11</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 12</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 13</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 14</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 15</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 16</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 17</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 18</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 19</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 20</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 21</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 22</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 23</a></li>
+                                    <li class="epiodes__item"><a href="#">Ep 24</a></li>
+                                </ul>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+
+                    <div class="row sm-gutter">
+                        <div class="col l-8 m-8 c-12">
+                            <div class="anime__details-review">
+                                <div class="section__title">
+                                    <h3>Reviews</h3>
+                                </div>
+                                <div class="review__item">
+                                    <div class="review__item-pic" style="background-image: url(./assets/img/blog1.jpg);"></div>
+                                    <div class="review__item-text">
+                                        <h5 class="name">
+                                            Arthus Curry -
+                                            <span>1 Hour ago</span>
+                                        </h5>
+                                        <p class="comment">
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="review__item">
+                                    <div class="review__item-pic" style="background-image: url(./assets/img/blog1.jpg);"></div>
+                                    <div class="review__item-text">
+                                        <h5 class="name">
+                                            Arthus Curry -
+                                            <span>1 Hour ago</span>
+                                        </h5>
+                                        <p class="comment">
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="review__item">
+                                    <div class="review__item-pic" style="background-image: url(./assets/img/blog1.jpg);"></div>
+                                    <div class="review__item-text">
+                                        <h5 class="name">
+                                            Arthus Curry -
+                                            <span>1 Hour ago</span>
+                                        </h5>
+                                        <p class="comment">
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="review__item">
+                                    <div class="review__item-pic" style="background-image: url(./assets/img/blog1.jpg);"></div>
+                                    <div class="review__item-text">
+                                        <h5 class="name">
+                                            Arthus Curry -
+                                            <span>1 Hour ago</span>
+                                        </h5>
+                                        <p class="comment">
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="anime__details-form">
+                                <div class="section__title">
+                                    <h3>Reviews</h3>
+                                </div>
+
+                                <form action="#">
+                                    <textarea class="form__textarea" type="text" placeholder="Your Comment"></textarea>
+                                    <button class="review-btn" type="submit">
+                                        <i class="fa fa-location-arrow"></i>
+                                        Review
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-4 c-12">
+                            <div class="anime__detalis-sidebar">
+                                <div class="product__sidebar-view">
+                                    <div class="product__view-title">
+                                        <div class="section__title">
+                                            <h3>Involve</h3>
+                                        </div>
+                                    </div>
+    
+                                    <div class="product__view-content">
+                                        <a href="">
+                                            <div class="product__view-item filter-time show-filter day month years">
+                                                <div class="product__view-pic" style="background-image: url(./assets/img/product-item1.jpg);"></div>
+                                                <div class="ep">2 / 2</div>
+                                                <div class="view">
+                                                    <span><i class="fas fa-eye"></i></span>
+                                                    5051
+                                                </div>
+                                                <h5 class="name"><a href="">Berserk: The Golden Age Arc</a></h5>
+                                            </div>
+                                        </a>
+        
+                                        <a href="">
+                                            <div class="product__view-item filter-time show-filter day week">
+                                                <div class="product__view-pic" style="background-image: url(./assets/img/product-item2.jpg);"></div>
+                                                <div class="ep">24 / 26</div>
+                                                <div class="view">
+                                                    <span><i class="fas fa-eye"></i></span>
+                                                    4820
+                                                </div>
+                                                <h5 class="name"><a href="">BOKU NO HERO ACADEMIA 3RD SEASON</a></h5>
+                                            </div>
+                                        </a>
+        
+                                        <a href="">
+                                            <div class="product__view-item filter-time show-filter day month">
+                                                <div class="product__view-pic" style="background-image: url(./assets/img/product-item3.jpg);"></div>
+                                                <div class="ep">12 / 12</div>
+                                                <div class="view">
+                                                    <span><i class="fas fa-eye"></i></span>
+                                                    4331
+                                                </div>
+                                                <h5 class="name"><a href="">Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou</a></h5>
+                                            </div>
+                                        </a>
+        
+                                        <a href="">
+                                            <div class="product__view-item filter-time show-filter day week month">
+                                                <div class="product__view-pic" style="background-image: url(./assets/img/product-item4.jpg);"></div>
+                                                <div class="ep">12 / 12</div>
+                                                <div class="view">
+                                                    <span><i class="fas fa-eye"></i></span>
+                                                    4331
+                                                </div>
+                                                <h5 class="name"><a href="">Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou</a></h5>
+                                            </div>
+                                        </a>
+        
+                                        <a href="">
+                                            <div class="product__view-item filter-time show-filter day week month">
+                                                <div class="product__view-pic" style="background-image: url(./assets/img/product-item5.jpg);"></div>
+                                                <div class="ep">12 / 12</div>
+                                                <div class="view">
+                                                    <span><i class="fas fa-eye"></i></span>
+                                                    4331
+                                                </div>
+                                                <h5 class="name"><a href="">Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou</a></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="pageup">
+                    <a href="#"><span><i class="fas fa-angle-up"></i></span></a>
+                </div>
+
+                <div class="footer__navbar">
+                    <div class="row sm-gutter">
+                        <div class="col l-3 m-12 c-12">
+                            <div class="footer__logo">
+                                <img src="./assets/img/logo.webp" alt="Animetvn" class="footer__logo-img">
+                            </div>
+                        </div>
+        
+                        <div class="col l-6 m-12 c-12">
+                            <ul class="footer__nav-list">
+                                <li class="footer__nav-item">
+                                    <a href="#">Homepage</a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a href="#">Categories</a>
+                                </li>
+                                <li class="footer__nav-item"><a href="#">OurBlog</a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a href="#">Contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="col l-3 m-12 c-12">
+                            <div class="footer__copyright">
+                                <p>Copyright ©2021 All rights reserved | This template is made with <i class="fa fa-heart"></i> by <a href="">Colorlib</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="light__overlay"></div>
+        <div class="modal__report">
+            <div class="modal__overlay"></div>
+            <div class="modal__body">
+                <div class="modal__report-title">
+                    <h3>Report an Issue</h3>
+                </div>
+                <div class="modal__report-text">
+                    <p>Thank you for reporting an issue with this video.
+                    Please let us know what's wrong so we can fix it ASAP.</p>
+                </div>
+                <div class="modal__report-name">
+                    <h5>Berserk: The Golden Age Arc</h5>
+                </div>
+                <div class="modal__report-episode">Episode <span>1</span></div>
+                <div class="modal__report-form-group">
+                    <h5>Video:</h5>
+                    <div class="options">
+                        <label>
+                            <input type="checkbox" class="check__report">
+                            No video
+                        </label>
+                        <label>
+                            <input type="checkbox" class="check__report">
+                            Wrong video
+                        </label>
+                        <label>
+                            <input type="checkbox" class="check__report">
+                            Other
+                            <span class="small__text">(Please describe below)</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="modal__report-form-group">
+                    <h5>Audio:</h5>
+                    <div class="options">
+                        <label>
+                            <input type="checkbox" class="check__report">
+                            No Synced
+                        </label>
+                        <label>
+                            <input type="checkbox" class="check__report">
+                            Wrong Audio
+                        </label>
+                        <label>
+                            <input type="checkbox" class="check__report">
+                            Other
+                            <span class="small__text">(Please describe below)</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="modal__report-form-group">
+                    <h5>Subtitle:</h5>
+                    <div class="options">
+                        <label>
+                            <input type="checkbox" class="check__report">
+                            No Synced
+                        </label>
+                        <label>
+                            <input type="checkbox" class="check__report">
+                            Wrong subtitle
+                        </label>
+                        <label>
+                            <input type="checkbox" class="check__report">
+                            Other
+                            <span class="small__text">(Please describe below)</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="modal__report-form-group">
+                    <h5>Other:</h5>
+                    <textarea class="describe"></textarea>
+                </div>
+                <div class="modal__report-form-group">
+                    <button class="submit__report">Send Report</button>
+                </div>
+                <div class="modal__report-close">
+                    <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        const headerSearch = document.querySelector('.header__search');
+        const headerSearchActive = document.querySelector('.header__search.active');
+        const searchIcon = document.querySelector('.header__search-icon');
+        const closeSearchIcon = document.querySelector('.header__search-close')
+        const headerNavbar = document.querySelector('.header__navbar');
+        const headerMenuBtn = document.querySelector('.header__menu-btn');
+        const closeNavMenu = document.querySelector('.header__navbar-close');
+
+        searchIcon.onclick = function() {
+            headerSearch.classList.toggle('active');
+        };
+
+        closeSearchIcon.onclick = function() {
+            headerSearch.classList.remove('active');
+        }
+
+
+        headerMenuBtn.onclick = function() {
+            headerNavbar.classList.toggle('active-on-mobile');
+        }
+
+        closeNavMenu.onclick = function() {
+            headerNavbar.classList.remove('active-on-mobile');
+        } 
+
+        const animeWatchingPlayer = document.querySelector('.anime__watching-player');
+        const controlsAutoplay = document.querySelector('.controls__autoplay');
+        const controlsAutoplayIcon = document.querySelector('.controls__autoplay i');
+        const controlsAutonext = document.querySelector('.controls__autonext');
+        const controlsAutonextIcon = document.querySelector('.controls__autonext i');
+        const controlsAddList = document.querySelector('.controls__addlist');
+        const controlsAddListIcon = document.querySelector('.controls__addlist i');
+        const controlsLight = document.querySelector('.controls__light');
+        const lightOverlay = document.querySelector('.light__overlay');
+        const controlsResize = document.querySelector('.controls__resize');
+        const controlsReport = document.querySelector('.controls__report');
+        const modalReport = document.querySelector('.modal__report');
+        const modalOverlayReport = document.querySelector('.modal__report .modal__overlay');
+        const modalReportClose = document.querySelector('.modal__report-close');
+        var iconAutoCheck = 'fas fa-check-square';
+
+        controlsAutoplay.onclick = function() {
+            if( controlsAutoplayIcon.className != iconAutoCheck) {
+                controlsAutoplayIcon.className = iconAutoCheck;
+            }
+            else {
+                controlsAutoplayIcon.className = "fa fa-square";
+            }
+        }
+
+        controlsAutonext.onclick = function() {
+            if( controlsAutonextIcon.className != iconAutoCheck) {
+                controlsAutonextIcon.className = iconAutoCheck;
+            }
+            else {
+                controlsAutonextIcon.className = "fa fa-square";
+            }
+        }
+
+        controlsAddList.onclick = function() {
+            if(controlsAddListIcon.classList.contains('fas')) {
+                controlsAddListIcon.classList.remove('fas');
+                controlsAddListIcon.classList.add('far');
+            } else {
+                controlsAddListIcon.classList.remove('far');
+                controlsAddListIcon.classList.add('fas');
+            }
+        }
+
+        controlsLight.onclick = function() {
+            lightOverlay.style = 'opacity: 0.95; visibility: visible;';
+        }
+
+        lightOverlay.onclick = function() {
+            lightOverlay.style = 'opacity: 0; visibility: hidden;';
+        }
+
+        controlsResize.onclick = function() {
+            const collapse = '<i class="fas fa-compress"></i> Collapse';
+            if( controlsResize.innerHTML != collapse) {
+                controlsResize.innerHTML = collapse;
+                animeWatchingPlayer.style = 'width: 100%; max-width: 100%;';
+            } else {
+                controlsResize.innerHTML = '<i class="fas fa-expand"></i> Expand';
+                animeWatchingPlayer.style = 'width: 70%; max-width: 70%;';  
+            }
+        }
+
+        controlsReport.onclick = function() {
+            modalReport.style = 'opacity: 1; visibility: visible;';;
+        }
+
+        modalOverlayReport.onclick = function() {
+            modalReport.style = 'opacity: 0; visibility: hidden;';;
+        }
+
+        modalReportClose.onclick = function() {
+            event.preventDefault();
+            modalReport.style = 'opacity: 0; visibility: hidden;';;
+        }
+
+        const player = new Plyr('#player', {
+            title: 'Example Title',
+            quality: { 
+                default: 720, options: [1080, 720, 480, 360, 240],
+            },
+            
+            tooltips: { controls: true, seek: true },
+            displayDuration: true,
+            invertTime: false,
+        });
+
+        player.source = {
+            type: 'video',
+            title: 'Example title',
+            sources: [
+                {
+                src: '/assets/video/375.mp4',
+                type: 'video/mp4',
+                size: 720,
+                },
+                {
+                src: 'assets/video/videoplayback.mp4',
+                type: 'video/webm',
+                size: 1080,
+                },
+                {
+                src: 'assets/video/375.mp4',
+                type: 'video/webm',
+                size: 360,
+                },
+                {
+                src: '/assets/video/375.mp4',
+                type: 'video/mp4',
+                size: 480,
+                },
+            ],
+            poster: '/assets/img/blog1.jpg',
+        };
+    </script>
+</body>
+</html>
