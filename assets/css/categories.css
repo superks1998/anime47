@@ -1,0 +1,131 @@
+.breadcrumb__link {
+    padding-top: 35px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.breadcrumb__link a {
+    position: relative;
+    color: var(--white-color);
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.breadcrumb__link a::after {
+    position: absolute;
+    top: 0;
+    right: -15px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; 
+    content: "\f105";
+}
+
+.breadcrumb__link a i {
+    color: #e53637;
+    padding-right: 10px;
+}
+
+.breadcrumb__link span {
+    color: #b7b7b7;
+    font-weight: 400;
+}
+
+.product__page-title {
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.product__page-filter {
+    display: flex;
+    height: 40px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.product__page-filter p {
+    color: var(--white-color);
+    font-size: 16px;
+    margin: 10px 20px 0 0;
+}
+
+.select-input {
+    position: relative;
+    background-color: var(--white-color);
+    height: 32px;
+    line-height: 3.2rem;
+    font-size: 14px;
+    padding: 0 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.select-input i {
+    margin-left: 10px;
+    transition: all 0.2s;
+}
+
+.select-input.active i {
+    transform: rotate(180deg);
+}
+
+.select-input-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--white-color);
+    visibility: hidden;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: all linear 0.2s;
+}
+
+.select-input.active .select-input-list {
+    visibility: visible;
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.select-input-item {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 10px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 0 0 1px rgb(68 68 68 / 11%);
+}
+
+.categoies__product {
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.product__pagination {
+    margin-bottom: 35px;
+}
+
+.product__pagination-item {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 4.8rem;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+.product__pagination-item a {
+    display: block;
+    width: 100%;
+    color: #b7b7b7;
+}
+
+.product__pagination-item.current-page {
+    border: 1px solid #b7b7b7;
+    border-radius: 50px;
+}

@@ -1,0 +1,187 @@
+
+.login,
+.signup {
+    padding-top: 130px;
+    padding-bottom: 120px;
+    color: var(--white-color);
+}
+
+.login__form {
+    position: relative;
+    padding-left: 145px;
+}
+
+.login__form::after {
+    position: absolute;
+    right: -12px;
+    top: -40px;
+    height: 330px;
+    width: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    content: "";
+}
+
+.signup.login__form::after {
+    height: 500px;
+}
+
+.login__form-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.login__form-input {
+    position: relative;
+    width: 370px;
+    margin-bottom: 20px;
+}
+
+.login__form-input::before {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    background-color: #b7b7b7;
+    top: 10px;
+    left: 50px;
+}
+
+.login__form-input input {
+    height: 50px;
+    width: 100%;
+    padding-left: 76px;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    background-color: var(--white-color);
+    border: none;
+    outline: none;
+}
+
+.login__form-input .icon {
+    position: absolute;
+    font-size: 2rem;
+    top: 13px;
+    left: 15px;
+    color: #b7b7b7;
+}
+
+.login__form-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.login__form-forget-pass {
+    position: absolute;
+    display: inline-block;
+    font-size: 1.5rem;
+    bottom: 10px;
+    right: 75px;
+}
+
+.login__register {
+    padding-left: 30px;
+}
+
+.login__register-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.login__register-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    outline: none;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.login__register-btn a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.login__social {
+    padding-top: 52px;
+}
+
+.login__social > span {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.login__social-link {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 460px;
+    padding: 14px 0;
+    position: relative;
+    margin: 0 auto 15px;
+    text-align: center;
+}
+
+.login__social-link.facebook {
+    background-color: #4267b2;
+}
+
+.login__social-link.google {
+    background-color: #ff4343;
+}
+
+.login__social-link.twitter {
+    background-color: #1da1f2;
+}
+
+.login__social-link span {
+    font-size: 20px;
+    position: absolute;
+    left: 32px;
+    top: 10px;
+}
+
+
+.signup__have-account {
+    display: block;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.signup__have-account span {
+    color: var(--white-color);
+    font-weight: 400;
+}
+
+.login__social.signup {
+    padding-top: 0;
+}
+
+.login__social-link.signup {
+    margin: 0 0 15px 0;
+}

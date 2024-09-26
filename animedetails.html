@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/animedetails.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/css/owlcarousel.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script src="./owlcarousel/owl.carousel.js"></script>
+    <script src="./main.js"></script>
+    <title>Anime47</title>
+</head>
+<body>
+    <div class="app">
+        <div class="grid wide header__search">
+            <div class="header__search-form-wrap">
+                <form class="header__search-form">
+                    <input type="text" placeholder="Search..." class="header__search-input">
+                    <button type="submit" class="header__search-submit">Search</button>
+                </form>
+            </div>
+            <div class="header__search-close hide-on-mobile">
+                <a href="#"></a>
+            </div>
+        </div>
+        <header class="header">
+            <div class="grid wide">
+                <div class="row header__wrap">
+                    <div class="col l-2 m-2 c-2">
+                        <div class="header__logo">
+                            <a href="index.html"><img src="./assets/img/logo.webp" alt="Animetvn" class="header__logo-img"></a>
+                        </div>
+                    </div>
+
+                    <div class="col l-8 header__navbar-wrap">
+                        <div class="header__navbar">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item active">
+                                    <a href="./index.html">Homepage</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#">Categories
+                                        <i class="fas fa-angle-down"></i>
+                                        <i class="fas fa-angle-right"></i>
+                                    </a>
+                                    <ul class="header__nav-subnav">
+                                        <li><a href="./categories.html">Categories</a></li>
+                                        <li><a href="./animewatching.html">Anime Watching</a></li>
+                                        <li><a href="./animedetails.html">Anime Details</a></li>
+                                        <li><a href="./blogdetails.html">Blog Details</a></li>
+                                        <li><a href="./login.html">Login</a></li>
+                                        <li><a href="./signup.html">Sign up</a></li>
+                                    </ul>
+                                </li>
+                                <li class="header__nav-item"><a href="./ourblog.html">OurBlog</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#">Contacts</a>
+                                </li>
+                                <div class="header__nav-line"></div>
+
+                                <div class="header__navbar-close hide-on-pc">
+                                    <a href="#"></a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col l-2 m-9 c-9">
+                        <div class="header__masthead">
+                            <a href="#" class="header__search-icon">
+                                <i class="fas fa-search"></i>
+                            </a>
+        
+                            <div class="header__user">
+                                <a href="./login.html" class="header__user-icon"> 
+                                    <i class="fas fa-user"></i>
+                                </a> 
+                            </div>
+
+                            <div class="header__menu-nav hide-on-pc">
+                                <a class="header__menu-btn" href="#">MENU
+                                    <span><i class="fas fa-bars"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide ">
+                <div class="container">
+
+                    <div class="breadcrumb">
+                        <div class="grid wide">
+                            <div class="row sm-gutter">
+                                <div class="col l-12 c-12 m-12">
+                                    <div class="breadcrumb__link">
+                                        <a href="index.html"><i class="fas fa-home"></i>Home</a>
+                                        <a href="#">Categories</a>
+                                        <span>Action</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="anime__details">
+                        <div class="row sm-gutter">
+                            <div class="col l-3 m-12 c-12">
+                                <div class="anime__details-pic" style="background-image: url(./assets/img/product-item1.jpg);">
+                                    <div class="ep">12 / 12</div>
+                                    <div class="view">
+                                        <span><i class="fas fa-eye"></i></span>
+                                        543033
+                                    </div>
+                                    <div class="comment">
+                                        <span><i class="fas fa-comment"></i></span>
+                                        1491
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col l-9 m-12 c-12">
+                                <div class="anime__details-info">
+                                    <div class="anime__details-title">
+                                        <h1>Berserk: The Golden Age Arc</h1>
+                                        <h4>ベルセルク 黄金時代篇</h4>
+                                    </div>
+
+                                    <div class="anime__details-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                        <div class="vote">10.110 Vote</div>
+                                    </div>
+                                    
+                                    <div class="anime__details-introduce">
+                                        <p>Berserk: The Golden Age Arc (Japanese: ベルセルク 黄金時代篇, Hepburn: Beruseruku Ōgon Jidai-hen) is a Japanese trilogy series of anime films, which adapts Kentaro Miura's Berserk manga series, specifically its Golden Age arc, and was produced by Studio 4°C.
+                                        </p>
+                                    </div>
+
+                                    <div class="anime__details-widget">
+                                        <div class="row">
+                                            <div class="col l-6 m-6 c-12">
+                                                <ul class="anime__details-widget-list">
+                                                    <li class="anime__details-widget-item">
+                                                        <span>Type:</span>
+                                                        TV Series
+                                                    </li>
+                                                    <li class="anime__details-widget-item">
+                                                        <span>Studio:</span>
+                                                        Lerche
+                                                    </li>
+                                                    <li class="anime__details-widget-item">
+                                                        <span>Date aired:</span>
+                                                        Oct 02, 2019 to ?
+                                                    </li>
+                                                    <li class="anime__details-widget-item">
+                                                        <span>Status:</span>
+                                                        Airing
+                                                    </li>
+                                                    <li class="anime__details-widget-item">
+                                                        <span>Genre:</span>
+                                                        Action, Adventure, Fantasy
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col l-6 m-6 c-12">
+                                                <ul class="anime__details-widget-list">
+                                                    <li class="anime__details-widget-item">
+                                                        <span>Scores:</span>
+                                                        7.31 / 1,515
+                                                    </li>
+                                                    <li class="anime__details-widget-item">
+                                                        <span>Rating:</span>
+                                                        8.5 / 161 times
+                                                    </li>
+                                                    <li class="anime__details-widget-item">
+                                                        <span>Duration:</span>
+                                                        24 min/ep
+                                                    </li>
+                                                    <li class="anime__details-widget-item">
+                                                        <span>Quality:</span>
+                                                        HD
+                                                    </li>
+                                                    <li class="anime__details-widget-item">
+                                                        <span>Views:</span>
+                                                        131,541
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="anime__details-btn">
+                                        <div class="follow-btn">
+                                                <i class="follow-btn-icon far fa-heart"></i>
+                                                <span>Follow</span>
+                                        </div>
+                                        <div class="watch-btn">
+                                            <a href="./animewatching.html"><span>Watch Now</span>
+                                                <i class="fas fa-caret-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+
+                        
+                   
+
+                    <div class="row sm-gutter">
+                        <div class="col l-8 m-8 c-12">
+                            <div class="anime__details-review">
+                                <div class="section__title">
+                                    <h3>Reviews</h3>
+                                </div>
+                                <div class="review__item">
+                                    <div class="review__item-pic" style="background-image: url(./assets/img/blog1.jpg);"></div>
+                                    <div class="review__item-text">
+                                        <h5 class="name">
+                                            Arthus Curry -
+                                            <span>1 Hour ago</span>
+                                        </h5>
+                                        <p class="comment">
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="review__item">
+                                    <div class="review__item-pic" style="background-image: url(./assets/img/blog1.jpg);"></div>
+                                    <div class="review__item-text">
+                                        <h5 class="name">
+                                            Arthus Curry -
+                                            <span>1 Hour ago</span>
+                                        </h5>
+                                        <p class="comment">
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="review__item">
+                                    <div class="review__item-pic" style="background-image: url(./assets/img/blog1.jpg);"></div>
+                                    <div class="review__item-text">
+                                        <h5 class="name">
+                                            Arthus Curry -
+                                            <span>1 Hour ago</span>
+                                        </h5>
+                                        <p class="comment">
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="review__item">
+                                    <div class="review__item-pic" style="background-image: url(./assets/img/blog1.jpg);"></div>
+                                    <div class="review__item-text">
+                                        <h5 class="name">
+                                            Arthus Curry -
+                                            <span>1 Hour ago</span>
+                                        </h5>
+                                        <p class="comment">
+                                            whachikan Just noticed that someone categorized this as belonging to the genre "demons" LOL
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="anime__details-form">
+                                <div class="section__title">
+                                    <h3>Reviews</h3>
+                                </div>
+
+                                <form action="#">
+                                    <textarea class="form__textarea" type="text" placeholder="Your Comment"></textarea>
+                                    <button class="review-btn" type="submit">
+                                        <i class="fa fa-location-arrow"></i>
+                                        Review
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="col l-4 m-4 c-12">
+                            <div class="anime__detalis-sidebar">
+                                <div class="product__sidebar-view">
+                                    <div class="product__view-title">
+                                        <div class="section__title">
+                                            <h3>You Might Like...</h3>
+                                        </div>
+                                    </div>
+    
+                                    <div class="product__view-content">
+                                        <a href="">
+                                            <div class="product__view-item filter-time show-filter day month years">
+                                                <div class="product__view-pic" style="background-image: url(./assets/img/product-item1.jpg);"></div>
+                                                <div class="ep">2 / 2</div>
+                                                <div class="view">
+                                                    <span><i class="fas fa-eye"></i></span>
+                                                    5051
+                                                </div>
+                                                <h5 class="name"><a href="">Berserk: The Golden Age Arc</a></h5>
+                                            </div>
+                                        </a>
+        
+                                        <a href="">
+                                            <div class="product__view-item filter-time show-filter day week">
+                                                <div class="product__view-pic" style="background-image: url(./assets/img/product-item2.jpg);"></div>
+                                                <div class="ep">24 / 26</div>
+                                                <div class="view">
+                                                    <span><i class="fas fa-eye"></i></span>
+                                                    4820
+                                                </div>
+                                                <h5 class="name"><a href="">BOKU NO HERO ACADEMIA 3RD SEASON</a></h5>
+                                            </div>
+                                        </a>
+        
+                                        <a href="">
+                                            <div class="product__view-item filter-time show-filter day month">
+                                                <div class="product__view-pic" style="background-image: url(./assets/img/product-item3.jpg);"></div>
+                                                <div class="ep">12 / 12</div>
+                                                <div class="view">
+                                                    <span><i class="fas fa-eye"></i></span>
+                                                    4331
+                                                </div>
+                                                <h5 class="name"><a href="">Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou</a></h5>
+                                            </div>
+                                        </a>
+        
+                                        <a href="">
+                                            <div class="product__view-item filter-time show-filter day week month">
+                                                <div class="product__view-pic" style="background-image: url(./assets/img/product-item4.jpg);"></div>
+                                                <div class="ep">12 / 12</div>
+                                                <div class="view">
+                                                    <span><i class="fas fa-eye"></i></span>
+                                                    4331
+                                                </div>
+                                                <h5 class="name"><a href="">Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou</a></h5>
+                                            </div>
+                                        </a>
+        
+                                        <a href="">
+                                            <div class="product__view-item filter-time show-filter day week month">
+                                                <div class="product__view-pic" style="background-image: url(./assets/img/product-item5.jpg);"></div>
+                                                <div class="ep">12 / 12</div>
+                                                <div class="view">
+                                                    <span><i class="fas fa-eye"></i></span>
+                                                    4331
+                                                </div>
+                                                <h5 class="name"><a href="">Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou</a></h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="pageup">
+                    <a href="#"><span><i class="fas fa-angle-up"></i></span></a>
+                </div>
+
+                <div class="footer__navbar">
+                    <div class="row sm-gutter">
+                        <div class="col l-3 m-12 c-12">
+                            <div class="footer__logo">
+                                <img src="./assets/img/logo.webp" alt="Animetvn" class="footer__logo-img">
+                            </div>
+                        </div>
+        
+                        <div class="col l-6 m-12 c-12">
+                            <ul class="footer__nav-list">
+                                <li class="footer__nav-item">
+                                    <a href="#">Homepage</a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a href="#">Categories</a>
+                                </li>
+                                <li class="footer__nav-item"><a href="#">OurBlog</a>
+                                </li>
+                                <li class="footer__nav-item">
+                                    <a href="#">Contacts</a>
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="col l-3 m-12 c-12">
+                            <div class="footer__copyright">
+                                <p>Copyright ©2021 All rights reserved | This template is made with <i class="fa fa-heart"></i> by <a href="">Colorlib</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+
+        const headerSearch = document.querySelector('.header__search');
+        const headerSearchActive = document.querySelector('.header__search.active');
+        const searchIcon = document.querySelector('.header__search-icon');
+        const closeSearchIcon = document.querySelector('.header__search-close')
+        const headerNavbar = document.querySelector('.header__navbar');
+        const headerMenuBtn = document.querySelector('.header__menu-btn');
+        const closeNavMenu = document.querySelector('.header__navbar-close');
+
+        searchIcon.onclick = function() {
+            headerSearch.classList.toggle('active');
+        };
+
+        closeSearchIcon.onclick = function() {
+            headerSearch.classList.remove('active');
+        }
+
+
+        headerMenuBtn.onclick = function() {
+            headerNavbar.classList.toggle('active-on-mobile');
+        }
+
+        closeNavMenu.onclick = function() {
+            headerNavbar.classList.remove('active-on-mobile');
+        }
+
+        const followBtn = document.querySelector('.follow-btn');
+        const followBtnIcon = document.querySelector('.follow-btn-icon');
+
+        followBtn.onclick = function() {
+            if(followBtnIcon.classList.contains('fas')) {
+                followBtnIcon.classList.remove('fas');
+                followBtnIcon.classList.add('far');
+            } else {
+                followBtnIcon.classList.remove('far');
+                followBtnIcon.classList.add('fas');
+            }
+        }
+
+
+    </script>
+</body>
+</html>
