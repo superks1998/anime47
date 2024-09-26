@@ -1,0 +1,227 @@
+
+.anime__details {
+    padding: 70px 0 90px;
+}
+
+.anime__details-pic {
+    position: relative;
+    color: var(--white-color);
+    height: 440px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.anime__details-pic .ep {
+    position: absolute;
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 1.3rem;
+    padding: 2px 12px;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px;
+}
+
+.anime__details-pic .view {
+    position: absolute;
+    display: inline-block;
+    background-color: #3d3d3d;
+    padding: 2px 10px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    bottom: 10px;
+    left: 10px;
+}
+
+.anime__details-pic .comment {
+    position: absolute;
+    display: inline-block;
+    background-color: #3d3d3d;
+    font-size: 1.2rem;
+    padding: 1px 10px;
+    border-radius: 4px;
+    bottom: 10px;
+    right: 10px;
+}
+
+.anime__details-info {
+    position: relative;
+    color: var(--white-color);
+}
+
+.anime__details-title {
+    margin-bottom: 20px;
+}
+
+.anime__details-title h1 {
+    font-size: 3rem;
+    margin-bottom: 13px;
+}
+
+.anime__details-title h4 {
+    color: #b7b7b7;
+    font-size: 1.5rem;
+}
+
+.anime__details-rating {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    color: #e89f12;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.6rem;
+}
+
+.anime__details-rating .vote {
+    font-size: 1.6rem;
+    color: #b7b7b7;
+    display: block;
+}
+
+.anime__details-introduce {
+    color: #b7b7b7;
+    max-height: 120px;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-bottom: 30px;
+}
+
+.anime__details-widget {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.anime__details-widget-list {
+    padding-bottom: 20px;
+}
+
+.anime__details-widget-item {
+    position: relative;
+    padding-left: 18px;
+    line-height: 3rem;
+}
+
+.anime__details-widget-item::after {
+    position: absolute;
+    content: "";
+    top: 12px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    background-color: #b7b7b7;
+}
+
+.anime__details-widget-item span {
+    color: #b7b7b7;
+    width: 115px;
+    display: inline-block;
+}
+
+.anime__details-btn {
+    display: flex;
+    margin-top: 20px;
+}
+
+.follow-btn {
+    font-size: 13px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    display: inline-block;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 14px 20px;
+    border-radius: 4px;
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.anime__details-review {
+    color: #b7b7b7;
+    margin-bottom: 35px;
+}
+
+.review__item {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.review__item-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.review__item-text {
+    position: relative;
+    padding: 18px 30px 16px 20px;
+    background-color: #1d1e39;
+    flex: 1;
+    border-radius: 10px;
+}
+
+.review__item-text::after {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: -25px;
+    border: 15px solid;
+    border-color: transparent #1d1e39 transparent transparent;
+}
+
+.review__item-text .name {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.review__item-text .name span {
+    color: #b7b7b7;
+    font-weight: 400;
+}
+
+.review__item-text .comment {
+    font-size: 1.5rem;
+}
+
+.anime__details-form {
+    margin-bottom: 35px;
+}
+
+.anime__details-form form textarea {
+    width: 100%;
+    padding: 12px 0 0 20px;
+    border-radius: 5px;
+    outline: none;
+    height: 110px;
+    resize: none;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.review-btn {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding: 10px 15px;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
+
+

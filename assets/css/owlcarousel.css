@@ -1,0 +1,85 @@
+/* .owl-carousel {
+    overflow: hidden;
+} */
+
+.owl-item {
+    position: relative;
+}
+
+.owl-nav button {
+    position: relative;
+    font-size: 36px !important;
+    color: var(--white-color) !important;
+    background-color: #0b0c2a !important;
+    width: 66px;
+    height: 66px;
+    line-height: 66px !important;
+    border: none;
+    outline: none;
+    text-align: center;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 1;
+}
+
+.owl-nav button::after {
+    position: absolute;
+    content: "";
+    top: 6px;
+    left: 0;
+    right: 0;
+    height: 54px;
+    width: 54px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    z-index: 11 !important;
+}
+
+.owl-nav button span {
+    display: block;
+    transform: rotate(-45deg);
+}
+
+.owl-prev {
+    position: absolute !important;
+    top: 50%;
+    left: -40px;
+    z-index: 10 !important;
+}
+
+.owl-next {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+}
+
+.owl-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+}
+
+.owl-dots button {
+    outline: none;
+}
+
+.owl-item.active .slider__intro-category {
+    opacity: 1;
+    top: 0;
+}
+
+.owl-item.active .slider__intro-name {
+    opacity: 1;
+    top: 0;
+}
+
+.owl-item.active .slider__intro-content {
+    opacity: 1;
+    top: 0;
+}
+
+.owl-item.active .slider__intro-watch-btn {
+    opacity: 1;
+    top: 0;
+}
