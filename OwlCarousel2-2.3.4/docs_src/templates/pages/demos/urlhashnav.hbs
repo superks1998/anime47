@@ -36,27 +36,6 @@ tags:
 <a class="button secondary url" href="#ten">ten</a>
 
 
-{{#markdown }}
-### Overview
-
-> URLhashListener option is listening for url hash change and is looking for slide with the same data name e.g. `data-hash="zero"`
-
-Also `startPosition` option accept string: `'URLHash'`. This will load corresponding items on startup. Browser history back button is also affected.
-
-### Setup
-```
-	$('.owl-carousel').owlCarousel({
-		items:4,
-		loop:false,
-		center:true,
-		margin:10,
-		URLhashListener:true,
-		autoplayHoverPause:true,
-		startPosition: 'URLHash'
-	});
-```
-{{/markdown }} 
-
 <script>
 $(document).ready(function(){
 	$('.owl-carousel').owlCarousel({
