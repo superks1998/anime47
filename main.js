@@ -3,7 +3,7 @@ function filterSection(option) {
     var fliterTimeList = document.querySelectorAll('.filter-time');
     var productViewContent = document.querySelector(".product__view-content");
     fliterTimeList.forEach(item => {
-        var arr1 = item.className.split(" ");
+        var arr1 = item.className;
         
         if (arr1.indexOf(option) > -1) {
             if(item.style.display !== 'none') {
