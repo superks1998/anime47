@@ -26,41 +26,6 @@ tags:
 </div>
 <a class="button secondary play">Play</a>
 <a class="button secondary stop">Stop</a>
-{{#markdown }}
-### Overview
-
-Autoplay plugin has three options:
-```
-//default settings:
-
-autoplay:false
-autoplayTimeout:5000
-autoplayHoverPause:false
-```
-
-In this example i've added two buttons with custom events for play and stop:
-
-```
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-	items:4,
-	loop:true,
-	margin:10,
-	autoplay:true,
-	autoplayTimeout:1000,
-	autoplayHoverPause:true
-});
-
-$('.play').on('click',function(){
-	owl.trigger('play.owl.autoplay',[1000])
-})
-
-$('.stop').on('click',function(){
-	owl.trigger('stop.owl.autoplay')
-})
-```
-
-{{/markdown }} 
 
 <script>
 $(document).ready(function(){
